@@ -28,3 +28,8 @@
 /Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/ProjectEuler.dll
 /Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/ProjectEuler.pdb
 /Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/ProjectEuler.csproj.CopyComplete
+/Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/Razor/Views/CodeSolutions/Create.g.cshtml.cs
+/Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/Razor/Views/CodeSolutions/Delete.g.cshtml.cs
+/Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/Razor/Views/CodeSolutions/Details.g.cshtml.cs
+/Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/Razor/Views/CodeSolutions/Edit.g.cshtml.cs
+/Users/Jordan/GitHub/ProjectEuler/obj/Debug/netcoreapp2.2/Razor/Views/CodeSolutions/Index.g.cshtml.cs

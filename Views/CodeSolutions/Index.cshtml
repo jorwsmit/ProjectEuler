@@ -1,0 +1,32 @@
+@model IEnumerable<ProjectEuler.Models.CodeSolution>
+
+@{
+    ViewData["Title"] = "Index";
+}
+    <div class="container">
+        <h1>Index</h1>
+        <div class="row">
+            
+@foreach (var item in Model) { 
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </h5>
+                        <p class="card-text">
+                            @Html.DisplayFor(modelItem => item.Problem)
+                        </p>
+                        <div>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">See Solution</a>
+                        </div>
+                        <div>
+                            <a href="@Html.DisplayFor(modelItem => item.ProjectEulerLink)">@Html.DisplayFor(modelItem => item.ProjectEulerLink)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+}
+        </div>
+    </div>
